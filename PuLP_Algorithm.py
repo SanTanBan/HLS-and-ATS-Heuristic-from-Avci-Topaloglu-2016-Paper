@@ -143,9 +143,9 @@ def PuLP_Algorithm(max_seconds_allowed_for_calculation=0,directory_containing_No
             Number_of_Vehicle_used_of_each_Type[k]=used_vehicles
         print("The maximum numbers of vehicles used is: ",used_vehicles," out of total available ",VN[k])
         if max_seconds_allowed_for_calculation>0:
-            name="Vehicles_ "+str(used_vehicles)+"--"+str(VN[k])+" and Capacity_ "+str(max)+"--"+str(VQ[k])+" with Objective Value_ "+str(objec_val)+" & Solver Time "+str(max_seconds_allowed_for_calculation)+"seconds.png"
+            name="Vehicles_ "+str(used_vehicles)+"--"+str(VN[k])+" and Capacity_ "+str(max)+"--"+str(VQ[k])+".png"
         else:
-            name="Vehicles_ "+str(used_vehicles)+"--"+str(VN[k])+" and Capacity_ "+str(max)+"--"+str(VQ[k])+" with Objective Value_ "+str(objec_val)+" & Solver Time "+str(pulp_end_time-pulp_start_time)+"seconds.png"
+            name="Vehicles_ "+str(used_vehicles)+"--"+str(VN[k])+" and Capacity_ "+str(max)+"--"+str(VQ[k])+".png"
         main_dir_for_Image=directory_to_save_PuLP_solution+"{}"
         plt.savefig(main_dir_for_Image.format(name))
 

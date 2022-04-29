@@ -288,7 +288,7 @@ def HLS_Flowchart(directory_details_for_saving="",directory_containing_Vehicle_T
 
         # Finding the Maximum Utilised Vehicle Capacity for each Vehicle Type?
 
-        name="Vehicles Used "+str(x_b[3][k])+" of Type "+str(k)+" with Capacity_ "+str(VQ[k])+" with Objective Value "+str(x_b[0])+" & HLS_Text Solution Time "+str(delta_T)+"seconds.png"
+        name="Used "+str(x_b[3][k])+" Vehicles of Type "+str(k)+" having Capacity_ "+str(VQ[k])+".png"
         main_dir_for_Image=directory_to_save_HLS_solution+"{}"
         plt.savefig(main_dir_for_Image.format(name))
 
