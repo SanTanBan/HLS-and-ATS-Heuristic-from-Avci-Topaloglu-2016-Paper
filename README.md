@@ -14,7 +14,8 @@ The following Python Files contain the Individual Algorithms:-
   HLS_Text.py 
   
 All these Excel and Python Files need to be present in the same Folder along with the MainPythonFile.py
-Run the MainPythonFile.py and get the results
+
+ Run the MainPythonFile.py and get the results
 
  The paper AVCI Topaloglu 2016 has mentioned slightly different processes in its Algorithm, Flowchart and Text.
  The HLS Python Files are accordingly written implementing these minute differences.
