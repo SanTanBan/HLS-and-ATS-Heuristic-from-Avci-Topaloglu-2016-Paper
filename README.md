@@ -13,7 +13,7 @@ The following Python Files contain the Individual Algorithms:-
   HLS_Flowchart.py, 
   HLS_Text.py 
   
-All these Excel and Python Files need to be present in the same Folder along with the MainPythonFile.py
+All these Excel and Python Files need to be present in the same Folder along with the MainPythonFile.py and GeneRead.py
 
  Only need to run the MainPythonFile.py and get the results.
 
